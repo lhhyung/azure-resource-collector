@@ -13,8 +13,8 @@ def collect_virtual_machines():
 
     for vm in virtual_machines_list:
         vm_name = vm.name
-        subscription_id = vm.id.split('/')[2]  # Extract subscription ID from ID
-        resource_group = vm.id.split('/')[4]  # Extract resource group from ID
+        subscription_id = vm.id.split('/')[2]
+        resource_group = vm.id.split('/')[4]
         location = vm.location
 
         print(
