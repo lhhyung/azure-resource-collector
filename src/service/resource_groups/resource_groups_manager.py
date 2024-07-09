@@ -11,3 +11,5 @@ def collect_resource_groups():
 
     for resource_group in list(resource_groups_list):
         print(f"{resource_group.name:<{column_width}}{resource_group.location}")
+
+    print()

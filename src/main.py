@@ -1,6 +1,8 @@
 from service.disks.disks_manager import collect_disks
 from service.resource_groups.resource_groups_manager import collect_resource_groups
+from service.virtual_machines.virtual_machines_manager import collect_virtual_machines
 
 
 collect_resource_groups()
 collect_disks()
+collect_virtual_machines()
